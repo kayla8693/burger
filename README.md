@@ -9,8 +9,7 @@ The application utilizes MySQL, Node, and Express to query and route data, and H
 2. [Usage](#usage)
 3. [License](#license)
 4. [Contributing](#contributing)
-5. [Code of Conduct](#codeOfConduct)
-6. [Questions](#questions)
+5. [Questions](#questions)
 
 ## Installation
 <p id='installation'></p>
@@ -52,9 +51,6 @@ If you would like to contribute to this project you can:
 - Update the README with changes made, new technologies used, etc.
 
 - Create a new pull request using https://github.com/kayla8693/burger-logger/compare
-
-## Code of Conduct
-<p id='codeOfConduct'></p>
 
 ## Questions
 <p id='questions'></p>
