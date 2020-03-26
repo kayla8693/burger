@@ -6,16 +6,18 @@
     <div class="row">
 
         <div class="col-md-6" id="notDevoured">
-            <ul>
+            <ul style="list-style: none;">
 
                 {{#each burgers}}
                 {{#unless devoured}}
 
-                <li>
-                    <p class="burgerBox">{{id}}. {{burger_name}}
-                        </p>
+                <li class="notDevoured">
+                
+                   {{id}}. {{burger_name}}
+                    
 
                     <button class="devour" data-id="{{id}}" data-devourstate=1>Devour</button>
+
 
                 </li>
                 {{/unless}}
@@ -27,12 +29,12 @@
 
         <div class="col-md-6" id="devoured">
 
-            <ul>
+            <ul style="list-style: none;">
 
                 {{#each burgers}}
                 {{#if devoured}}
 
-                <li class="burgerBox">
+                <li class="devoured">
                     {{id}}. {{burger_name}}
 
                 </li>

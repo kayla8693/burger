@@ -1,15 +1,34 @@
 body {
-    background-color: violet;
+    background-color: orange;
     text-align: center;
+}
+.container {
+    width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 20px;
 }
 
 h1 {
     color: red;
 }
 
-.burgerBox {
+.notDevoured {
     margin: 5px;
     background-color: white;
     width: 200px;
-    height: 30px;
+    height: 80px;
+    padding: 25px;
+}
+
+.devoured {
+    margin: 5px;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+}
+
+.devour {
+    margin-left: 240px;
 }
