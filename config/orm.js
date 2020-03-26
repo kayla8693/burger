@@ -1,6 +1,5 @@
 const connection = require("../config/connection.js");
 
-
 function printQuestionMarks(num) {
     var arr = [];
 
@@ -9,7 +8,7 @@ function printQuestionMarks(num) {
     }
 
     return arr.toString();
-}
+};
 
 function objToSql(ob) {
     var arr = [];
@@ -22,12 +21,11 @@ function objToSql(ob) {
                 value = "'" + value + "'";
             }
             arr.push(key + "=" + value);
-        }
-    }
+        };
+    };
 
     return arr.toString();
 };
-
 
 var orm = {
     selectAll: function (tableInput, cb) {
@@ -39,16 +37,19 @@ var orm = {
     },
 
     insertOne: function (table, cols, vals, cb) {
+
         const query = `INSERT INTO ${table} (${cols.toString()}) VALUES (${printQuestionMarks(vals.length)})`;
+
         console.log(query);
+
         connection.query(query, vals, function (err, result) {
             if (err) throw err;
             cb(result);
         });
-
     },
-    
+
     updateOne: function (table, objColVals, condition, cb) {
+
         const query = `UPDATE ${table} SET ${objToSql(objColVals)} WHERE ${condition}`;
 
         console.log(query);

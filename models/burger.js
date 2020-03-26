@@ -18,4 +18,4 @@ var burger = {
     }
 };
 
-module.exports = burber;
+module.exports = burger;
