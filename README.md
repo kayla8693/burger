@@ -14,7 +14,7 @@ The application utilizes MySQL, Node, and Express to query and route data, and H
 ## Installation
 <p id='installation'></p>
 
-- Clone this repo to your local machince using https://github.com/kayla8693/burger-logger.git
+- Clone this repo to your local machince using https://github.com/kayla8693/burger
 
 - Install all dependencies by running:
 
@@ -23,15 +23,9 @@ The application utilizes MySQL, Node, and Express to query and route data, and H
 ## Usage
 <p id='usage'></p>
 
-- Change the user and password in connection.js (located in the config folder) to your specific MySQL username and password
-
-- Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line or directly in MySQL Workbench
-
-- Run
-
->node server.js
-
-- Navigate to the port indicated in the terminal and start creating and devouring your burgers!
+- Naviaget to https://burger-app-20.herokuapp.com/
+- Enter in any burger that you wish and press submit
+- Press the "Devour It" button to move the burger to the opposite side of the page
 
 ## License
 <p id='license'></p>
@@ -44,13 +38,13 @@ The application utilizes MySQL, Node, and Express to query and route data, and H
 
 If you would like to contribute to this project you can:
 
-- Either fork or clone this repo (https://github.com/kayla8693/burger-logger.git)
+- Either fork or clone this repo (https://github.com/kayla8693/burger)
 
 - Add any changes/upgrades you would like
 
 - Update the README with changes made, new technologies used, etc.
 
-- Create a new pull request using https://github.com/kayla8693/burger-logger/compare
+- Create a new pull request using https://github.com/kayla8693/burger/compare
 
 ## Questions
 <p id='questions'></p>
