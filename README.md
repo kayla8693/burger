@@ -5,12 +5,20 @@ This application is a restaurant app that lets users input the names of burgers 
 The application utilizes MySQL, Node, and Express to query and route data, and Handlebars to generate HTML. It also uses a homemade ORM and follows the MVC design pattern.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Technologies](#technologies)
-2. [Usage](#usage)
-3. [License](#license)
-4. [Contributing](#contributing)
-5. [Questions](#questions)
+1. [Technologies](#technologies)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Questions](#questions)
+
+## Technologies
+<p id='technologies'></p>
+
+- Node.js
+- Express.js
+- MySQL
+- Handlebars.js
 
 ## Installation
 <p id='installation'></p>
@@ -20,14 +28,6 @@ The application utilizes MySQL, Node, and Express to query and route data, and H
 - Install all dependencies by running:
 
 >npm install
-
-## Technologies
-<p id='technologies'></p>
-
-- Node.js
-- Express.js
-- MySQL
-- Handlebars.js
 
 ## Usage
 <p id='usage'></p>
