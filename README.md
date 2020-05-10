@@ -6,6 +6,7 @@ The application utilizes MySQL, Node, and Express to query and route data, and H
 
 ## Table of Contents
 1. [Installation](#installation)
+2. [Technologies](#technologies)
 2. [Usage](#usage)
 3. [License](#license)
 4. [Contributing](#contributing)
@@ -19,6 +20,14 @@ The application utilizes MySQL, Node, and Express to query and route data, and H
 - Install all dependencies by running:
 
 >npm install
+
+## Technologies
+<p id='technologies'></p>
+
+- Node.js
+- Express.js
+- MySQL
+- Handlebars.js
 
 ## Usage
 <p id='usage'></p>
