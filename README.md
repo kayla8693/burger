@@ -23,7 +23,7 @@ The application utilizes MySQL, Node, and Express to query and route data, and H
 ## Usage
 <p id='usage'></p>
 
-- Naviaget to https://burger-app-20.herokuapp.com/
+- Navigate to https://burger-app-20.herokuapp.com/
 - Enter in any burger that you wish and press submit
 - Press the "Devour It" button to move the burger to the opposite side of the page
 
